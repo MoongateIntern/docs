@@ -90,6 +90,12 @@
         "api-reference/endpoint/delete",
         "api-reference/endpoint/endpointTest"
       ]
+    },
+    {
+      "group": "Test Folder Demo",
+      "pages": [
+        "test-folder/introduction"
+      ]
     }
   ],
   "footerSocials": {
