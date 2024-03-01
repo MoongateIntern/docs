@@ -33,6 +33,10 @@
     {
       "name": "TEST TAB",
       "url": "https://google.com"
+    },
+    {
+      "name": "Test Folder",
+      "url": "test-folder"
     }
   ],
   "anchors": [
