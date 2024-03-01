@@ -25,6 +25,10 @@
     "name": "Dashboard",
     "url": "https://dashboard.mintlify.com"
   },
+  "primaryTab":
+  {
+    "name": "NOT documentation"
+  },
   "tabs": [
     {
       "name": "Documentation Tab",
