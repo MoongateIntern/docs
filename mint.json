@@ -27,20 +27,12 @@
   },
   "primaryTab":
   {
-    "name": "NOT documentation"
+    "name": "Merchant Guide"
   },
   "tabs": [
     {
-      "name": "Documentation Tab",
-      "url": "/"
-    },
-    {
-      "name": "API Reference",
+      "name": "End User Guide",
       "url": "api-reference"
-    },
-    {
-      "name": "Test Folder",
-      "url": "test-folder"
     }
   ],
   "anchors": [
