@@ -27,6 +27,9 @@
   },
   "tabs": [
     {
+      "name": "Documentation Tab"
+    },
+    {
       "name": "API Reference",
       "url": "api-reference"
     },
