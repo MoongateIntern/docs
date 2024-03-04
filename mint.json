@@ -57,6 +57,7 @@
       "group": "Get Started",
       "pages": [
         "introduction",
+        "the basics",
         "quickstart",
         "development"
       ]
