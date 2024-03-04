@@ -3,7 +3,8 @@
   "name": "Moongate",
   "logo": {
     "dark": "/logo/dark.svg",
-    "light": "/logo/light.svg"
+    "light": "/logo/light.svg",
+    "href": "https://moongate.id"
   },
   "favicon": "/moongatefavicon.svg",
   "colors": {
