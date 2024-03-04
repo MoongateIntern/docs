@@ -58,9 +58,22 @@
       "pages": [
         "introduction",
         "the basics",
-        "quickstart",
-        "development"
+        "quickstart"
       ]
+    },
+    {
+      "group": "Creating a Campaign",
+      "pages": [
+        {
+          "group": "Ticketing",
+          "pages": [
+          "creating campaign/ticketing/createevent",
+          "creating campaign/ticketing/createtickets",
+          "creating campaign/ticketing/gating"  
+          ]
+        }
+      ]
+
     },
     {
       "group": "Essentials",
