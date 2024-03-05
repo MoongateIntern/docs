@@ -18,13 +18,13 @@
   },
   "topbarLinks": [
     {
-      "name": "Support",
-      "url": "mailto:hi@mintlify.com"
+      "name": "Visit Moongate",
+      "url": "moongate.id"
     }
   ],
   "topbarCtaButton": {
-    "name": "Dashboard",
-    "url": "https://dashboard.mintlify.com"
+    "name": "Contact Support",
+    "url": "mailto:support@moongate.id"
   },
   "primaryTab":
   {
