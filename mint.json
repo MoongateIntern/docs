@@ -68,17 +68,17 @@
         {
           "group": "Ticketing",
           "pages": [
-          "creating campaign/ticketing/createevent",
-          "creating campaign/ticketing/createtickets",
-          "creating campaign/ticketing/gating"  
+          "creating-campaign/ticketing/createevent",
+          "creating-campaign/ticketing/createtickets",
+          "creating-campaign/ticketing/gating"  
           ]
         },
         {
           "group": "Membership",
           "pages": [
-          "creating campaign/membership/creatememprogram",
-          "creating campaign/membership/creatememtiers",
-          "creating campaign/membership/gating"  
+          "creating-campaign/membership/creatememprogram",
+          "creating-campaign/membership/creatememtiers",
+          "creating-campaign/membership/gating"  
           ]
         }
       ]
