@@ -77,7 +77,7 @@
           "group": "Membership",
           "pages": [
           "creating-campaign/membership/creatememprogram",
-          "creating-campaign/membership/creatememtiers",
+          "creating-campaign/membership/creatememtier",
           "creating-campaign/membership/gating"  
           ]
         }
