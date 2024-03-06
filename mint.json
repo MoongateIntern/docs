@@ -85,6 +85,13 @@
 
     },
     {
+      "group": "Distribution",
+      "pages": [
+        "distribution/discountpromocodes",
+        "distribution/airdropping"
+      ]
+    },
+    {
       "group": "Essentials",
       "pages": [
         "essentials/markdown",
