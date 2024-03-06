@@ -1,17 +1,17 @@
 ---
 title: 'Gating by NFT/Email/Wallet'
-description: 'Limit ticket access to a group of specified users'
+description: 'Limit membership tier purchases to a group of specified users'
 ---
 
-By gating a ticket type, vendors can restrict the ability to purchase it to specified people only, allowing vendors to offer exclusive value to users. 
+By gating a membership tier type, vendors can restrict the ability to attain membership to specified people only, allowing vendors to offer exclusive value to users. 
 
-Ticket purchase eligibility can be allocated by ownership of certain NFT collections and email/NFT wallet addresses. **Please note that gating is an optional feature and does not need to be enabled should your application not require it.**
+Membership eligibility can be allocated by ownership of certain NFT collections and email/NFT wallet addresses. **Please note that gating is an optional feature and does not need to be enabled should your application not require it.**
 
 <AccordionGroup>
   <Accordion title="Gating by NFT">
     <Steps>
         <Step title="Enable NFT-gating">
-            Navigate to the "Advance" section for the ticket type to be gated and enable "Gated by NFT."
+            Navigate to the "Advance" section for the membership tier to be gated and enable "Gated by NFT."
             <img src="/images/creating campaign/ticketing/gating/NFT Gate Toggle.png"/>
         </Step>
         <Step title="Select NFT Collection to Gate By">
@@ -23,7 +23,7 @@ Ticket purchase eligibility can be allocated by ownership of certain NFT collect
                     <Step title="Select the target event/membership program from the 'NFT Collection' field.">
                     </Step>
                     <Step title="Select the target ticket/membership tier from the 'Type' field.">
-                        Select "All Tier" if you do not want to gate by ticket/membership tier (i.e ticket will be available to holders of a ticket of any type from the specified event/membership of any tier from the specified membership program.)
+                        Select "All Tier" if you do not want to gate by ticket/membership tier (i.e membership tier will be available to all ticket holders from the specified event/all members of the specified membership program.)
                     </Step>
                 </Steps>
             </Accordion>
@@ -44,11 +44,11 @@ Ticket purchase eligibility can be allocated by ownership of certain NFT collect
   <Accordion title="Gating by Email/Wallet (Whitelisting)">
     <Steps>
         <Step title="Enable Email/Wallet-gating">
-            Navigate to the "Advance" section for the ticket type to be gated and enable "Gated by Email/Wallet."
+            Navigate to the "Advance" section for the membership type to be gated and enable "Gated by Email/Wallet."
             <img src="/images/creating campaign/ticketing/gating/Email or Wallet Toggle.png"/>
         </Step>
         <Step title="Choose a Whitelisting Method">
-            Select CSV if there are a large number of people that you will be gating this ticket type to, and manual for a smaller quantity.
+            Select CSV if there are a large number of people that you will be gating this membership type to, and manual for a smaller quantity.
             <Tip>
                 You can always add additional addresses for gating later using either method.
             </Tip>
@@ -66,7 +66,7 @@ Ticket purchase eligibility can be allocated by ownership of certain NFT collect
                         <img src="/images/creating campaign/ticketing/gating/Whitelist Upload.png"/>
                     </Step>
                     <Step title="Confirm Successful Import">
-                        Return to the Tickets page, locate the gated ticket type, and click the number in the "Gated by" column to confirm the addresses.
+                        Return to the Tickets page, locate the gated membership type, and click the number in the "Gated by" column to confirm the addresses.
                         <img src="/images/creating campaign/ticketing/gating/Whitelist Confirmation 1.png"/>
                         <img src="/images/creating campaign/ticketing/gating/Whitelist Confirmation 2.png"/>
                     </Step>
@@ -80,7 +80,7 @@ Ticket purchase eligibility can be allocated by ownership of certain NFT collect
                         <img src="/images/creating campaign/ticketing/gating/Manual Flow.gif"/>
                     </Step>
                     <Step title="Confirm Successful Import">
-                        Return to the Tickets page, locate the gated ticket type, and click the number in the "Gated by" column to confirm the addresses.
+                        Return to the Tickets page, locate the gated membership type, and click the number in the "Gated by" column to confirm the addresses.
                         <img src="/images/creating campaign/ticketing/gating/Whitelist Confirmation 1.png"/>
                         <img src="/images/creating campaign/ticketing/gating/Whitelist Confirmation 2.png"/>
                     </Step>
