@@ -11,8 +11,8 @@ title: 'Implementing Membership Tiers'
     <Step title="Add Membership Tier Name/Type">
         Enter the name or tier (superfan, VIP, etc) for this membership type. Additional tiers can always be added to your membership program later.
         <img src="/images/creating-campaign/membership/creating tier/Add Tier Name.png"/>
-        <Frame>
-            <img src="/images/creating-campaign/membership/creating tier/Tier Location.png" caption="Where customers will see the different tiers within the membership program"/>
+        <Frame caption="Where customers will see the different tiers within the membership program">
+            <img src="/images/creating-campaign/membership/creating tier/Tier Location.png"/>
         </Frame>
         <Warning>
             Updates made to the "Membership Tier Name" field may not automatically appear on NFT marketplaces for NFTs that have already been minted. To ensure the latest metadata is displayed, manually refresh the NFT metadata on the respective marketplaces.
@@ -26,9 +26,26 @@ title: 'Implementing Membership Tiers'
     </Step>
     <Step title="Add Membership Tier Image and Description">
         Upload an image and a brief description for this membership tier.
+        <img src="/images/creating-campaign/membership/creating tier/Add Tier Img and Desc.png"/>
+        <Tabs>
+            <Tab title="Membership Tier Description">
+                <Frame caption="Where customers will see the membership tier description during checkout">
+                    <img src="/images/creating-campaign/membership/creating tier/Tier Desc Location.webp"/>
+                </Frame>
+            </Tab>
+            <Tab title="Membership Tier Image">
+                <Frame caption="Where customers will see the membership tier image during checkout">
+                    <img src="/images/creating-campaign/membership/creating tier/Tier Img Checkout Location.png"/>
+                </Frame>
+                <Frame caption="Where customers will see the membership tier image in their ticket confirmation email">
+                    <img src="/images/creating-campaign/membership/creating tier/Tier Img Email Location.png"/>
+                </Frame>
+            </Tab>
+        </Tabs>
     </Step>
     <Step title="Specify Membership Tier Price">
         Enter the desired price for this membership tier.
+            <img src="/images/creating-campaign/membership/creating tier/Add Tix Price.png"/>
         <Info>
             Set the price to 0 if the membership tier is free to join.
         </Info>
@@ -38,28 +55,38 @@ title: 'Implementing Membership Tiers'
     </Step>
     <Step title="Specify Advanced Options (Optional)">
         If applicable, specify the maximum number of available memberships within this tier, as well as whether this tier should be invisible to users on the membership information page.
+        <img src="/images/creating-campaign/membership/creating tier/Advance Toggle.png"/>
         <Info>
             To gate membership tiers by NFT ownership or Email/Wallet addresses, please refer to [this guide](/creating-campaign/membership/gating).
         </Info>
         When you are ready, click "Save" to close the "Membership Tier" window, then click "Next."
     </Step>
     <Step title="Add Questions (Optional)">
+        <img src="/images/creating-campaign/membership/creating tier/Add Qs.gif"/>
         If desired, add questions to collect information from users who are joining the membership program. These questions will be shown to users during checkout.
-        
+        <img src="/images/creating-campaign/membership/creating tier/Qs.png"/>
         Responses can be viewed from the membership program's Sales tab, located in the membership program dashboard.
+        <img src="/images/creating-campaign/membership/creating tier/Responses.gif"/>
     </Step>
     <Step title="Specify Contract Settings and Payment Options">
         Choose a collection name and symbol for your membership program. The collection name will be used as the collection title when individual memberships are listed on marketplaces, and the symbol will be used.
+        <img src="/images/creating-campaign/membership/creating tier/Contract Settings Empty.png"/>
         <Warning>
             Collection name and symbol cannot be changed after your event is published.
         </Warning>
+        <Frame caption="Where the collection name will appear on an external marketplace">
+            <img src="/images/creating-campaign/membership/creating tier/Collection Name Location.webp"/>
+        </Frame>
         Select a blockchain to mint your membership program on, as well as a contract type.
+        <img src="/images/creating-campaign/membership/creating tier/Contract Settings Filled.png"/>
         <Info>
             For more information on selecting a blockchain and contract type, please consult section "[7. Technical Information]()."
         </Info>
         Select a payment option if applicable. Moongate supports both credit cards and crypto options. Please contact us if you will be collecting payment for your event.
+        <img src="/images/creating-campaign/membership/creating tier/Payment Options.png"/>    
     </Step>
     <Step title="Publish Your Event">
         Once you have finalized your membership program and tiering details, click "Publish" to launch your event.
+        <img src="/images/creating-campaign/membership/creating tier/Publish Button.png"/>
     </Step>
 </Steps>
