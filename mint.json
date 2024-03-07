@@ -70,7 +70,8 @@
           "pages": [
           "creating-campaign/ticketing/createevent",
           "creating-campaign/ticketing/createtickets",
-          "creating-campaign/ticketing/gating"  
+          "creating-campaign/ticketing/gating",
+          "creating-campaign/ticketing/inviteonly"  
           ]
         },
         {
@@ -78,7 +79,8 @@
           "pages": [
           "creating-campaign/membership/creatememprogram",
           "creating-campaign/membership/creatememtier",
-          "creating-campaign/membership/gating"  
+          "creating-campaign/membership/gating",
+          "creating-campaign/membership/inviteonly"  
           ]
         }
       ]
