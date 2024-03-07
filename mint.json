@@ -89,9 +89,8 @@
     {
       "group": "Distribution",
       "pages": [
-        "distribution/discountpromocodes",
-        "distribution/airdropping",
-        "distribution/discountpromocodes"
+        "distribution/discountpromocode",
+        "distribution/airdropping"
       ]
     },
     {
