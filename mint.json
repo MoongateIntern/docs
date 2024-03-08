@@ -90,8 +90,13 @@
       "group": "Distribution",
       "pages": [
         "distribution/discountpromocode",
-        "distribution/airdropping",
-        "distribution/test"
+        "distribution/airdropping"
+      ]
+    },
+    {
+      "group": "Checking In/Validation",
+      "pages": [
+        "check-in/check-in-validation"
       ]
     },
     {
