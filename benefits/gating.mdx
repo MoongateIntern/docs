@@ -2,3 +2,110 @@
 title: 'Gating by NFT/Email/Wallet'
 description: 'Limit benefits to a group of specified users'
 ---
+
+Merchants can restrict the ability to claim a benefit to specified people only, allowing vendors to offer exclusive value to customers. For benefits, eligibility to claim a benefit **must** be determined by ownership of certain NFT collections.
+
+<AccordionGroup>
+  <Accordion title="Gating by NFT">
+    <Steps>
+        <Step title="Select NFT Collection to Gate By">
+            If you have hosted an event that was ticketed by or created a membership program on Moongate, we have made it easy for you to NFT-gate by your events and membership tiers. Simply select "Your Collection" from the "Type" field.
+            <img src="/images/creating-campaign/ticketing/gating/Your Collection Toggle.png"/>
+            <Accordion title="Your Collection">
+                <img src="/images/creating-campaign/ticketing/gating/NFT Gate Toggle.png"/>
+                <Steps>
+                    <Step title="Select the target event/membership program from the 'NFT Collection' field.">
+                    </Step>
+                    <Step title="Select the target ticket/membership tier from the 'Type' field.">
+                        Select "All Tier" if you do not want to gate by ticket/membership tier (i.e ticket type will be available to all ticket holders from the specified event/all members of the specified membership program.)
+                    </Step>
+                </Steps>
+            </Accordion>
+            If you are gating by an external NFT collection, select "Other Collection."
+            <img src="/images/creating-campaign/ticketing/gating/Other Collection Toggle.png"/>
+            <Accordion title="Other Collection">
+                <img src="/images/creating-campaign/ticketing/gating/Select Network.gif"/>
+                <Steps>
+                    <Step title="Select the network on which the target NFT collection is hosted.">
+                    </Step>
+                    <Step title="Enter the NFT collections' contract address.">
+                    </Step>
+                </Steps>
+            </Accordion>
+        </Step>
+        <Step title="Select NFT Collection to Gate By">
+            If you have hosted an event that was ticketed by or created a membership program on Moongate, we have made it easy for you to NFT-gate by your events and membership tiers. Simply select "Your Collection" from the "Type" field.
+            <img src="/images/creating-campaign/ticketing/gating/Your Collection Toggle.png"/>
+            <Accordion title="Your Collection">
+                <img src="/images/creating-campaign/ticketing/gating/NFT Gate Toggle.png"/>
+                <Steps>
+                    <Step title="Select the target event/membership program from the 'NFT Collection' field.">
+                    </Step>
+                    <Step title="Select the target ticket/membership tier from the 'Type' field.">
+                        Select "All Tier" if you do not want to gate by ticket/membership tier (i.e ticket type will be available to all ticket holders from the specified event/all members of the specified membership program.)
+                    </Step>
+                </Steps>
+            </Accordion>
+            If you are gating by an external NFT collection, select "Other Collection."
+            <img src="/images/creating-campaign/ticketing/gating/Other Collection Toggle.png"/>
+            <Accordion title="Other Collection">
+                <img src="/images/creating-campaign/ticketing/gating/Select Network.gif"/>
+                <Steps>
+                    <Step title="Select the network on which the target NFT collection is hosted.">
+                    </Step>
+                    <Step title="Enter the NFT collections' contract address.">
+                    </Step>
+                </Steps>
+            </Accordion>
+        </Step>
+    </Steps>
+  </Accordion>
+  <Accordion title="Gating by Email/Wallet (Whitelisting)">
+    <Steps>
+        <Step title="Enable Email/Wallet-gating">
+            Navigate to the "Advance" section for the ticket type to be gated and enable "Gated by Email/Wallet."
+            <img src="/images/creating-campaign/ticketing/gating/Email or Wallet Toggle.png"/>
+        </Step>
+        <Step title="Choose a Whitelisting Method">
+            Select CSV if there are a large number of people that you will be gating this ticket type to, and manual for a smaller quantity.
+            <Tip>
+                You can always add additional addresses for gating later using either method.
+            </Tip>
+            <img src="/images/creating-campaign/ticketing/gating/CSV Gate.png"/>
+            <Accordion title="CSV (bulk import)">
+                <Steps>
+                    <Step title="Download the CSV template">
+                        <img src="/images/creating-campaign/ticketing/gating/Download CSV Template.png"/>
+                    </Step>
+                    <Step title="Add Addresses to the CSV Template">
+                        Open the template in a spreadsheet editor. Following the template format, input the target email and wallet addresses. You can mix email and wallet addresses concurrently.
+                    </Step>
+                    <Step title="Upload the CSV">
+                        Upload the edited CSV file and save.
+                        <img src="/images/creating-campaign/ticketing/gating/Whitelist Upload.png"/>
+                    </Step>
+                    <Step title="Confirm Successful Import">
+                        Return to the Tickets page, locate the gated ticket type, and click the number in the "Gated by" column to confirm the addresses.
+                        <img src="/images/creating-campaign/ticketing/gating/Whitelist Confirmation 1.png"/>
+                        <img src="/images/creating-campaign/ticketing/gating/Whitelist Confirmation 2.png"/>
+                    </Step>
+                </Steps>
+            </Accordion>
+            <img src="/images/creating-campaign/ticketing/gating/Manual Gate.png"/>
+            <Accordion title="Manual">
+                <Steps>
+                    <Step title="Click 'Add Whitelist' and input an email/wallet address">
+                        Repeat as appropriate for additional addresses and save when complete.
+                        <img src="/images/creating-campaign/ticketing/gating/Manual Flow.gif"/>
+                    </Step>
+                    <Step title="Confirm Successful Import">
+                        Return to the Tickets page, locate the gated ticket type, and click the number in the "Gated by" column to confirm the addresses.
+                        <img src="/images/creating-campaign/ticketing/gating/Whitelist Confirmation 1.png"/>
+                        <img src="/images/creating-campaign/ticketing/gating/Whitelist Confirmation 2.png"/>
+                    </Step>
+                </Steps>
+            </Accordion>
+        </Step>
+    </Steps>
+  </Accordion>
+</AccordionGroup>
