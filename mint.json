@@ -108,6 +108,39 @@
       ]
     },
     {
+      "group": "Customer Insights",
+      "pages": [
+        "customer-insights/sales-attendance-data",
+        "customer-insights/view-customer-info",
+        "customer-insights/utm-tracking"
+      ]
+    },
+    {
+      "group": "Admin Settings",
+      "pages": [
+        "admin-settings/collecting-payment",
+        "admin-settings/team-management"        
+      ]
+    },
+    {
+      "group": "Technical Information",
+      "pages": [
+        "tech-info/tech-info"
+      ]
+    },
+    {
+      "group": "Merchant FAQs",
+      "pages": [
+        "merchant-faq/merchant-faq"
+      ]
+    },
+    {
+      "group": "Fund Settlement and Refund Policy",
+      "pages": [
+        "settlement-refunds-policy/settlement-refunds-policy"
+      ]
+    },
+    {
       "group": "Essentials",
       "pages": [
         "essentials/markdown",
