@@ -58,12 +58,40 @@ Once you have created a corresponding event, you are now ready to create and iss
         To change the currency type, return to "① Info" in the sidebar and change the value in the "Currency" field.
     </Tip>
   </Step>
-  <Step title="Specify Advanced Options (Optional)">
-    If applicable, specify the maximum number of available tickets of this ticket type, as well as whether the 
-    ticket type should be invisible to users on the event page.
-    <img src= "/images/creating-campaign/ticketing/creating tickets/Tix Price Sales Period.png"/>
+  <Step title="Hidden Tickets, Gating, Limited Quantities, Invite Only, etc (Optional)">
+    The advanced options menu allows you to specify the number of available tickets of this type, the maximum number of tickets
+    of this type purchasable in a transaction, gating settings via NFT/email/wallet, whether this ticket type should be hidden
+    on the event page, and whether users require a special code to purchase this ticket type.
+    <img src= "/images/creating-campaign/ticketing/creating tickets/advanced options.png"/>
+    <Tabs>
+      <Tab title="Hide Tickets">
+        <img src="/images/creating-campaign/ticketing/creating tickets/hide.png"/>
+        Click the "Hide?" toggle to make this ticket type invisible to users on the event and checkout pages.
+      </Tab>
+      <Tab title="Limit Quantity">
+        <img src="/images/creating-campaign/ticketing/creating tickets/limited quantity.png"/>
+        Click the "Limited Quantity" toggle to specify the number of available tickets of this type. When sales of this ticket type meet the specified quantity,
+        the ticket will no longer be available for purchase.
+      </Tab>
+      <Tab title="Limit Purchases per Transaction">
+        <img src="/images/creating-campaign/ticketing/creating tickets/limit per transaction.png"/>
+        Enter a value in the "Limited Purchase per Transaction" field. Users will not be able to purchase more of this ticket type in a single transaction (for
+        themselves and others) than the specified value.
+      </Tab>
+      <Tab title="Limit Purchases per User">
+        <img src="/images/creating-campaign/ticketing/creating tickets/limit per user.png"/>
+        Click the "Limited Purchase per user" toggle to activate this option, then enter a value in the "Maximum Purchase per user" field. Users will not
+        be able to purchase more of this ticket type for themselves than the specified value.
+
+        For example, if the value was set to 1, the user could not purchase more than one of this ticket type for themselves, but they could still purchase
+        tickets on the behalf of others.
+      </Tab>
+    </Tabs>
     <Info>
-        To gate tickets by NFT ownership or Email/Wallet addresses, please refer to this guide.
+        To gate tickets by NFT ownership or Email/Wallet addresses, please refer to this [guide](/creating-campaign/ticketing/gating).
+    </Info>
+    <Info>
+        To require users to enter a special code to unlock tickets, please refer to this [guide](/creating-campaign/ticketing/inviteonly.mdx).
     </Info>
     When you are ready, click "Save" to close the ticket details window, then click "Next."
   </Step>
