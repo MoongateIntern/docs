@@ -129,6 +129,12 @@
       ]
     },
     {
+      "group": "Custom Features",
+      "pages": [
+        "custom-features/implement-custom-features"
+      ]
+    },
+    {
       "group": "Merchant FAQs",
       "pages": [
         "merchant-faq/merchant-faq"
