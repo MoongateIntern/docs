@@ -40,9 +40,9 @@
     {
       "group": "Get Started",
       "pages": [
-        "introduction",
-        "the basics",
-        "quickstart"
+        "/get-started/welcome",
+        "/get-started/the basics",
+        "get-started/quickstart"
       ]
     },
     {
