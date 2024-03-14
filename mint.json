@@ -132,7 +132,18 @@
     {
       "group": "Get Started",
       "pages": [
-        "user-guide/welcome"
+        "user-guide/welcome",
+        "user-guide/quickstart"
+      ]
+    },
+    {
+      "group": "The Basics",
+      "pages": [
+        "user-guide/signup-login",
+        "user-guide/your-portal",
+        "user-guide/benefits",
+        "user-guide/purchasing-redeeming-tix-mems",
+        "user-guide/user-check-in-guide"
       ]
     },
     {
@@ -140,6 +151,24 @@
       "pages": [
         "user-guide/managing-wallet/connecting-wallet",
         "user-guide/managing-wallet/transferring-nft"
+      ]
+    },
+    {
+      "group": "Phygital Integration",
+      "pages": [
+        "user-guide/phygital-integration/activate-badge-id"        
+      ]
+    },
+    {
+      "group": "Support",
+      "pages": [
+        "user-guide/support/user-faq"
+      ]
+    },
+    {
+      "group": "Refund Policy",
+      "pages": [
+        "user-guide/refund-policy/refund-policy"
       ]
     }
   ],
