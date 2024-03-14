@@ -4,7 +4,7 @@
   "logo": {
     "dark": "/logo/dark.svg",
     "light": "/logo/light.svg",
-    "href": "welcome"
+    "href": "get-started/welcome"
   },
   "favicon": "/moongatefavicon.svg",
   "colors": {
@@ -40,9 +40,9 @@
     {
       "group": "Get Started",
       "pages": [
-        "welcome",
-        "the basics",
-        "quickstart"
+        "get-started/welcome",
+        "get-started/the basics",
+        "get-started/quickstart"
       ]
     },
     {
