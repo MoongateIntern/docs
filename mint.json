@@ -128,6 +128,19 @@
       "pages": [
         "settlement-refunds-policy/settlement-refunds-policy"
       ]
+    },
+    {
+      "group": "Get Started",
+      "pages": [
+        "user-guide/welcome"
+      ]
+    },
+    {
+      "group": "Managing Your Wallet",
+      "pages": [
+        "user-guide/managing-wallet/connecting-wallet",
+        "user-guide/managing-wallet/transferring-nft"
+      ]
     }
   ],
   "footerSocials": {
