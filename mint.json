@@ -4,7 +4,7 @@
   "logo": {
     "dark": "/logo/dark.svg",
     "light": "/logo/light.svg",
-    "href": "/get-started/welcome"
+    "href": "welcome"
   },
   "favicon": "/moongatefavicon.svg",
   "colors": {
@@ -33,16 +33,16 @@
   "tabs": [
     {
       "name": "End User Guide",
-      "url": "user-guide/welcome"
+      "url": "user-guide"
     }
   ],
   "navigation": [
     {
       "group": "Get Started",
       "pages": [
-        "get-started/welcome",
-        "get-started/the basics",
-        "get-started/quickstart"
+        "welcome",
+        "the basics",
+        "quickstart"
       ]
     },
     {
