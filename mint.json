@@ -133,6 +133,7 @@
       "group": "Get Started",
       "pages": [
         "user-guide/welcome",
+        "user-guide/the basics",
         "user-guide/quickstart"
       ]
     },
