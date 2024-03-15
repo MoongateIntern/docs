@@ -140,11 +140,11 @@
     {
       "group": "The Basics",
       "pages": [
-        "user-guide/the basics/signup-login",
-        "user-guide/the basics/your-portal",
-        "user-guide/the basics/benefits",
-        "user-guide/the basics/purchasing-redeeming-tix-mems",
-        "user-guide/the basics/user-check-in-guide"
+        "user-guide/the-basics/signup-login",
+        "user-guide/the-basics/your-portal",
+        "user-guide/the-basics/benefits",
+        "user-guide/the-basics/purchasing-redeeming-tix-mems",
+        "user-guide/the-basics/user-check-in-guide"
       ]
     },
     {
