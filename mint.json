@@ -41,7 +41,7 @@
       "group": "Get Started",
       "pages": [
         "get-started/welcome",
-        "get-started/the basics",
+        "get-started/nft-explainer",
         "get-started/quickstart"
       ]
     },
@@ -133,18 +133,18 @@
       "group": "Get Started",
       "pages": [
         "user-guide/welcome",
-        "user-guide/the basics",
+        "user-guide/nft-explainer",
         "user-guide/quickstart"
       ]
     },
     {
       "group": "The Basics",
       "pages": [
-        "user-guide/signup-login",
-        "user-guide/your-portal",
-        "user-guide/benefits",
-        "user-guide/purchasing-redeeming-tix-mems",
-        "user-guide/user-check-in-guide"
+        "user-guide/the basics/signup-login",
+        "user-guide/the basics/your-portal",
+        "user-guide/the basics/benefits",
+        "user-guide/the basics/purchasing-redeeming-tix-mems",
+        "user-guide/the basics/user-check-in-guide"
       ]
     },
     {
