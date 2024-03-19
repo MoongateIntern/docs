@@ -23,7 +23,7 @@
   "topbarLinks": [
     {
       "name": "Visit Moongate",
-      "url": "moongate.id"
+      "url": "https://moongate.id"
     }
   ],
   "topbarCtaButton": {
