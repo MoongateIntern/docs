@@ -152,7 +152,8 @@
       "pages": [
         "user-guide/managing-wallet/connecting-wallet",
         "user-guide/managing-wallet/transferring-nft",
-        "user-guide/managing-wallet/manage-non-custodial-wallet"
+        "user-guide/managing-wallet/manage-non-custodial-wallet",
+        "user-guide/managing-wallet/test"
       ]
     },
     {
