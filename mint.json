@@ -8,9 +8,9 @@
   },
   "favicon": "/moongatefavicon.svg",
   "colors": {
-    "primary": "#00A28D",
-    "light": "#00A28D",
-    "dark": "#00A28D",
+    "primary": "#3873FF",
+    "light": "#3873FF",
+    "dark": "#3873FF",
     "background": {
       "light": "#ffffff",
       "dark": "#121224"
