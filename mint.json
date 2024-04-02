@@ -6,7 +6,7 @@
     "light": "/logo/light.svg",
     "href": "get-started/welcome"
   },
-  "favicon": "/moongatefavicon.svg",
+  "favicon": "/logo/moongatefavicon.svg",
   "colors": {
     "primary": "#3873FF",
     "light": "#3873FF",
