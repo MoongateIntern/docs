@@ -152,6 +152,12 @@
       ]
     },
     {
+      "group": "MoonFarmer",
+      "pages": [
+        "user-guide/moonfarmer/moonfarmer-guide"
+      ]
+    },
+    {
       "group": "Managing Your Wallet",
       "pages": [
         "user-guide/managing-wallet/connecting-wallet",
