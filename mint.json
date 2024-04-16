@@ -160,6 +160,7 @@
     {
       "group": "Managing Your Wallet",
       "pages": [
+        "user-guide/managing-wallet/manually-add-nft",
         "user-guide/managing-wallet/connecting-wallet",
         "user-guide/managing-wallet/transferring-nft",
         "user-guide/managing-wallet/manage-non-custodial-wallet"        
