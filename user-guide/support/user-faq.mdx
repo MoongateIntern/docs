@@ -42,13 +42,20 @@ title: 'User FAQs'
     </Accordion>
     <Accordion title="I can't see my NFT ticket/membership in my wallet.">
         There are a number of common reasons that this may occur.
-        1. **You are checking a wallet which you haven't connected to Moongate.**
-        This is often the case if you signed up to Moongate using email or Google login, as we automatically create a non-custodial wallet for users who sign up via these methods. 
-        Simply log into the [Moongate user portal](app.moongate.id) and check the 'Pass' page.
-        2. **You haven't configured your wallet to display NFTs on the same chain that the NFT ticket/membership is deployed on.**
-        Moongate often deploys on the Polygon, BNB Chain, Arbitrum, Avalanche, and XLayer chains, so try adding those. We recommend referring to your wallet
-        provider's documentation for instructions. As an example, here's [how to add a new chain on Metamask](https://support.metamask.io/hc/en-us/articles/360043227612-How-to-add-a-custom-network-RPC#h_01G63GGCJH5GCYDYPH5RNWNZQ8).
-        3. **Your external wallet isn't detecting the NFT ticket/membership.** Please see our instructions [here](/user-guide/managing-wallet/manually-add-nft) on how to manually add an NFT to your wallet.
+        <Steps>
+            <Step title="You are checking a wallet which you haven't connected to Moongate.">
+                This is often the case if you signed up to Moongate using email or Google login, as we automatically create a non-custodial wallet for users who sign up via these methods. 
+                To view your NFT in your non-custodial wallet, log in to Moongate, open the user settings panel, click ‘Manage’ to be taken to your non-custodial wallet, make sure the correct chain is selected, and then click "NFT."
+                <img src="/user-guide/images/support/user-faq/view-non-custodial-wallet.gif"/>
+            </Step>
+            <Step title="You haven't configured your wallet to display NFTs on the same chain that the NFT ticket/membership is deployed on.">
+                Moongate often deploys on the Polygon, BNB Chain, Arbitrum, Avalanche, and XLayer chains, so try adding those. We recommend referring to your wallet
+                provider's documentation for instructions. As an example, here's [how to add a new chain on Metamask](https://support.metamask.io/hc/en-us/articles/360043227612-How-to-add-a-custom-network-RPC#h_01G63GGCJH5GCYDYPH5RNWNZQ8).
+            </Step>
+            <Step title="Your external wallet isn't detecting the NFT ticket/membership.">
+                Please see our instructions [here](/user-guide/managing-wallet/manually-add-nft) on how to manually add an NFT to your wallet.
+            </Step>
+        </Steps>       
     </Accordion>
     <Accordion title="I can't log into the Moongate Verify mobile application.">
         The Moongate Verify mobile application is intended for event hosts – you shouldn't have to use it! As a general user, please instead visit your 
