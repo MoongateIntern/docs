@@ -38,6 +38,10 @@
     {
       "name": "End User Guide",
       "url": "user-guide"
+    },
+    {
+      "name": "Moongate Docs",
+      "url": "docs"
     }
   ],
   "navigation": [
