@@ -38,10 +38,6 @@
     {
       "name": "End User Guide",
       "url": "user-guide"
-    },
-    {
-      "name": "Moongate Docs",
-      "url": "docs"
     }
   ],
   "navigation": [
@@ -187,13 +183,7 @@
       "pages": [
         "user-guide/refund-policy/refund-policy"
       ]
-    }/*,
-    {
-      "group": "Moongate Docs",
-      "pages": [
-        "docs/welcome"
-      ]
-    }*/
+    }
   ],
   "footerSocials": {
     "twitter": "https://twitter.com/Moongate",
