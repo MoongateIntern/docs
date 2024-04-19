@@ -183,6 +183,12 @@
       "pages": [
         "user-guide/refund-policy/refund-policy"
       ]
+    },
+    {
+      "group": "Moongate Docs",
+      "pages": [
+        "docs/welcome"
+      ]
     }
   ],
   "footerSocials": {
