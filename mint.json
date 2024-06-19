@@ -58,7 +58,8 @@
           "creating-campaign/ticketing/createevent",
           "creating-campaign/ticketing/createtickets",
           "creating-campaign/ticketing/gating",
-          "creating-campaign/ticketing/inviteonly"  
+          "creating-campaign/ticketing/inviteonly",  
+          "creating-campaign/ticketing/require-approval"
           ]
         },
         {
@@ -67,7 +68,7 @@
           "creating-campaign/membership/creatememprogram",
           "creating-campaign/membership/creatememtier",
           "creating-campaign/membership/gating",
-          "creating-campaign/membership/inviteonly"  
+          "creating-campaign/membership/inviteonly"
           ]
         }
       ]
@@ -106,7 +107,10 @@
       "group": "Admin Settings",
       "pages": [
         "admin-settings/collecting-payment",
-        "admin-settings/team-management"        
+        "admin-settings/collecting-user-information",
+        "admin-settings/team-management",
+        "admin-settings/on-site-registration",
+        "admin-settings/cancel-ticket-transactions"        
       ]
     },
     {
