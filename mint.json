@@ -100,7 +100,8 @@
       "pages": [
         "customer-insights/sales-attendance-data",
         "customer-insights/view-customer-info",
-        "customer-insights/utm-tracking"
+        "customer-insights/utm-tracking",
+        "customer-insights/data-reports"
       ]
     },
     {

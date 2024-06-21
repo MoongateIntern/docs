@@ -3,20 +3,39 @@ title: 'Team Management'
 description: 'Grant team members access to your event/membership program/benefit campaign management tools.'
 ---
 
+> ## Team Roles Ability
+<CardGroup cols={3}>
+    <Card title="Owner" icon="circle" iconType="solid" color="red">
+    <Icon icon="check" iconType="solid" /> Create member <br/>
+    <Icon icon="check" iconType="solid" /> Edit member   <br/>
+    <Icon icon="check" iconType="solid" /> Delete member
+    </Card>
+    <Card title="Admin" icon="circle" iconType="solid" color="green">
+    <Icon icon="check" iconType="solid" /> Create member <br/>
+    <Icon icon="check" iconType="solid" /> Edit member   <br/>
+    <Icon icon="xmark" iconType="solid" /> Delete member
+    </Card>
+    <Card title="Moderator" icon="circle" iconType="solid" color="blue">
+    <Icon icon="xmark" iconType="solid" /> Create member <br/>
+    <Icon icon="xmark" iconType="solid" /> Edit member   <br/>
+    <Icon icon="xmark" iconType="solid" /> Delete member
+    </Card>
+</CardGroup>
+
+> ## Managing Team Members 
 <Steps>
-    <Step title="Navigate to the 'Team Management' panel">
+    <Step title="Navigate to the 'Team Management' panel to see the list of Team Members details">
         Click 'Setting' on the sidebar, and then 'Team Management.'
         <img src="/images/admin-settings/team-management/team management panel.gif"/>
     </Step>
     <Step title="Add team members">
+        <Warning>Only applicable to 'Owner' and 'Admin' roles team member</Warning>
         Click 'Add New', input the email address of the target team member, and then 'Add.'
         <img src="/images/admin-settings/team-management/add member.gif"/>
     </Step>
     <Step title="Deleting a team member">
+        <Warning>Only applicable to 'Owner' roles team member</Warning>
         Click the trash bin icon next to the 'Role' column of the target team member under the 'Action' column.
         <img src="images/admin-settings/team-management/delete member.png"/>
-        <Warning>
-        Please note that only Owners and Admins, excluding Moderators, can delete members. 
-        </Warning>
     </Step>
 </Steps>
