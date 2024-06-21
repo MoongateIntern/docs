@@ -1,0 +1,80 @@
+---
+title: "Require Approval"
+---
+
+<Tip>
+  Event tickets supported with an approval functionality, allows organizers to
+  create tickets that can only be granted by the organizer.
+</Tip>
+
+<AccordionGroup>
+    <Accordion title="Creating a Require Approval Campaign Ticket">
+        <Note>
+            A Require Approval ticket must have the following parameters:
+            * **Ticket Price:** Free
+            * **Maximum Purchase per user:** 1
+            * **Restrictions:** Users cannot buy tickets for others
+            * **Maximum Purchase per Transaction:** 1
+        </Note>
+    
+        <Steps titleSize="h3">
+            <Step title="Ticket Price">
+                <img src="images/creating-campaign/ticketing/require approval/price.png"/>
+            </Step>
+            <Step title="Advanced Options Setting">
+                <img src="images/creating-campaign/ticketing/require approval/options require approval.png"/>
+            </Step>
+            <Step title="Ticket Displayed">
+                >Ticket displayed on the user webpage will consist of an 'Approval Required' tag.
+                <img src="images/creating-campaign/ticketing/require approval/approval required.gif"/>
+            </Step>
+        </Steps>  
+    </Accordion>
+
+    <Accordion title="Ticket Purchasement Operation">
+        <Steps titleSize="h3">
+            <Step title="Purchase Ticket">
+            <video autoPlay muted loop playsInline className="w-full aspect-video" src="https://moongate-static.s3.amazonaws.com/mintlify/Untitled_video_-_Made_with_Clipchamp.mp4"></video>
+            </Step>
+            <Step title="Pending ticket approval request email to user">
+            >Email notification with 'Pending Approval' request will be sent to the users email.
+            <img src="images/creating-campaign/ticketing/require approval/pending approval.png"/>
+            </Step>
+            <Step title="Pending NFT Airdrop Status">
+            >Navigate to the 'Dashboard' panel from the 'Event' Tab, and under the 'Sales' tab, click any user to display their transaction details consisting of the 'Airdrop Status'.
+            <img src="images/creating-campaign/ticketing/require approval/NFT Airdrop.gif"/>
+            </Step>
+            <Step title="Merchant Approval Decision">
+                <Card icon="circle" iconType="sharp-solid" color="red">
+                    <Steps>
+                        <Step title="Rejected Ticket">
+                            >Navigate to the 'Dashboard' Panel from the 'Event' Tab, and select the Rejected option on the 'Approval' column.
+                            <img src="images/creating-campaign/ticketing/require approval/rejected status.gif"/>
+                        </Step>
+                        <Step title="Email Sent to User">
+                            >Email notification of rejected registration will be sent to the selected user.
+                            <img src="images/creating-campaign/ticketing/require approval/rejected email.png"/>
+                        </Step>
+                    </Steps>
+                </Card>
+                <Card icon="circle" iconType="sharp-solid" color="green">
+                    <Steps>
+                        <Step title="Approved Ticket">
+                            Navigate to the 'Dashboard' Panel from the 'Event' Tab, and select the Approved option on the 'Approval' column.
+                            <img src="images/creating-campaign/ticketing/require approval/approved status.gif"/>
+                        </Step>
+                        <Step title="Email Sent to User">
+                            Email notification of approved registration will be sent to the selected user.
+                            <img src="images/creating-campaign/ticketing/require approval/approved email.png"/>
+                        </Step>
+                        <Step title="Approved Airdrop Status">
+                            Airdrop status of selected user will be updated to 'Airdropped'.
+                            <img src="images/creating-campaign/ticketing/require approval/airdrop approved.png"/>
+                        </Step>
+                    </Steps>
+                </Card>
+            </Step>
+        </Steps>
+    </Accordion>
+
+</AccordionGroup>
