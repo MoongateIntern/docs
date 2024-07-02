@@ -70,8 +70,7 @@
           "creating-campaign/membership/gating",
           "creating-campaign/membership/inviteonly"
           ]
-        },
-        "creating-campaign/stripe-payment-feature/stripe"
+        }
       ]
 
     },
