@@ -173,10 +173,15 @@
       ]
     },
     {
+      "group": "Moon Odyssey",
+      "pages": [
+        "user-guide/moon-odyssey/moon-odyssey-faq"
+      ]
+    },
+    {
       "group": "Support",
       "pages": [
-        "user-guide/support/user-faq",
-        "user-guide/support/moon-odyssey-faq"
+        "user-guide/support/user-faq"
       ]
     },
     {
