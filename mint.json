@@ -30,8 +30,7 @@
     "name": "Contact Support",
     "url": "mailto:support@moongate.id"
   },
-  "primaryTab":
-  {
+  "primaryTab": {
     "name": "Merchant Guide"
   },
   "tabs": [
@@ -55,38 +54,32 @@
         {
           "group": "Ticketing",
           "pages": [
-          "creating-campaign/ticketing/createevent",
-          "creating-campaign/ticketing/createtickets",
-          "creating-campaign/ticketing/gating",
-          "creating-campaign/ticketing/inviteonly",  
-          "creating-campaign/ticketing/require-approval"
+            "creating-campaign/ticketing/createevent",
+            "creating-campaign/ticketing/createtickets",
+            "creating-campaign/ticketing/gating",
+            "creating-campaign/ticketing/inviteonly",
+            "creating-campaign/ticketing/require-approval"
           ]
         },
         {
           "group": "Membership",
           "pages": [
-          "creating-campaign/membership/creatememprogram",
-          "creating-campaign/membership/creatememtier",
-          "creating-campaign/membership/gating",
-          "creating-campaign/membership/inviteonly"
+            "creating-campaign/membership/creatememprogram",
+            "creating-campaign/membership/creatememtier",
+            "creating-campaign/membership/gating",
+            "creating-campaign/membership/inviteonly"
           ]
         },
         "creating-campaign/stripe-payment-feature/stripe"
       ]
-
     },
     {
       "group": "Distribution",
-      "pages": [
-        "distribution/discountpromocode",
-        "distribution/airdropping"
-      ]
+      "pages": ["distribution/discountpromocode", "distribution/airdropping"]
     },
     {
       "group": "Checking In/Validation",
-      "pages": [
-        "check-in/check-in-guide"
-      ]
+      "pages": ["check-in/check-in-guide"]
     },
     {
       "group": "Benefits",
@@ -112,32 +105,24 @@
         "admin-settings/collecting-user-information",
         "admin-settings/team-management",
         "admin-settings/on-site-registration",
-        "admin-settings/cancel-ticket-transactions"        
+        "admin-settings/cancel-ticket-transactions"
       ]
     },
     {
       "group": "Technical Information",
-      "pages": [
-        "tech-info/blockchain-contract-info"
-      ]
+      "pages": ["tech-info/blockchain-contract-info"]
     },
     {
       "group": "Custom Features",
-      "pages": [
-        "custom-features/implement-custom-features"
-      ]
+      "pages": ["custom-features/implement-custom-features"]
     },
     {
       "group": "Support",
-      "pages": [
-        "support/merchant-faq"
-      ]
+      "pages": ["support/merchant-faq"]
     },
     {
       "group": "Fund Settlement and Refund Policy",
-      "pages": [
-        "settlement-refunds-policy/settlement-refunds-policy"
-      ]
+      "pages": ["settlement-refunds-policy/settlement-refunds-policy"]
     },
     {
       "group": "Get Started",
@@ -164,34 +149,31 @@
         "user-guide/managing-wallet/connecting-wallet",
         "user-guide/managing-wallet/transferring-nft",
         "user-guide/managing-wallet/manage-non-custodial-wallet",
-        "user-guide/managing-wallet/manually-add-nft"        
+        "user-guide/managing-wallet/manually-add-nft"
       ]
     },
     {
       "group": "Phygital Integration",
-      "pages": [
-        "user-guide/phygital-integration/activate-badge-id"        
-      ]
+      "pages": ["user-guide/phygital-integration/activate-badge-id"]
     },
     {
       "group": "Moon Odyssey",
-      "pages": [
-        "user-guide/moon-odyssey/moon-odyssey-faq"
-      ]
+      "pages": ["user-guide/moon-odyssey/moon-odyssey-faq"]
+    },
+    {
+      "group": "Quest App",
+      "pages": ["user-guide/quest-app/user-quest-guide"]
     },
     {
       "group": "Support",
-      "pages": [
-        "user-guide/support/user-faq"
-      ]
+      "pages": ["user-guide/support/user-faq"]
     },
     {
       "group": "Refund Policy",
-      "pages": [
-        "user-guide/refund-policy/refund-policy"
-      ]
+      "pages": ["user-guide/refund-policy/refund-policy"]
     }
   ],
+
   "footerSocials": {
     "twitter": "https://twitter.com/Moongate",
     "linkedin": "https://www.linkedin.com/company/86263844/",
