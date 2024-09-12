@@ -1,0 +1,7 @@
+{
+  "editor.formatOnSave": false, // Disable formatting on save for the entire project
+  "[javascript]": {
+    "editor.formatOnSave": false // Example: Disable Prettier for JavaScript files
+  },
+  "prettier.enable": false // Completely disable Prettier for the project
+}
