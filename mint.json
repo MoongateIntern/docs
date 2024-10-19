@@ -109,6 +109,12 @@
       ]
     },
     {
+        "group": "Quest App",
+        "pages": [
+          "quest-app/merchant-quest-guide"
+        ]
+    },
+    {
       "group": "Technical Information",
       "pages": ["tech-info/blockchain-contract-info"]
     },
