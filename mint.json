@@ -134,8 +134,7 @@
       "group": "Get Started",
       "pages": [
         "user-guide/welcome",
-        "user-guide/nft-explainer",
-        "user-guide/quickstart"
+        "user-guide/nft-explainer"
       ]
     },
     {
