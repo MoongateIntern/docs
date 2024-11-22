@@ -101,7 +101,7 @@
     {
       "group": "Admin Settings",
       "pages": [
-        "admin-settings/collecting-payment",
+        "admin-settings/collecting-user-payments",
         "admin-settings/collecting-user-information",
         "admin-settings/team-management",
         "admin-settings/on-site-registration",
